@@ -6,8 +6,6 @@ DEBUG_FLAGS=$(COMMON_FLAGS) -DDEBUG -O0
 CXXFLAGS := $(CXXFLAGS) # inherit from env
 LDFLAGS := $(LDFLAGS) # inherit from env
 
-TEMPLATES="/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/Resources/templates/"
-
 all: polygonize
 
 polygonize: Makefile polygonize.cpp
